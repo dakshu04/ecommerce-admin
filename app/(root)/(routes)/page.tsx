@@ -2,7 +2,6 @@
 
 import { StoreModal } from "@/components/modals/store-modal"
 import { useStoreModal } from "@/hooks/use-store-modal"
-import { ModalProvider } from "@/provider/modal-provider"
 import { useEffect } from "react"
 
 const SetupPage = () => {
