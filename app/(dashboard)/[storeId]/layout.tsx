@@ -13,7 +13,7 @@ export default async function DashboardLayout({
 }) {
   const { storeId } = await params;     // ✅ 2. unwrap it
 
-  const { userId } = await auth();
+  const { userId } =  await auth();
 
   if (!userId) redirect("/sign-in");
 
